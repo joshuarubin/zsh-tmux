@@ -21,5 +21,5 @@ if [[ "$OSTYPE" == darwin* ]]; then
   alias tmux='tmux -f ~/.tmux-osx.conf'
 fi
 
-alias tmuxa='tmux attach-session'
+alias tmuxa='tmux new-session -A'
 alias tmuxl='tmux list-sessions'
